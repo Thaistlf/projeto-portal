@@ -6,4 +6,5 @@ var router  = express.Router();
 
 // Rota o site
 router.get('/', require('./home/index'));
+router.get('/equipe/', require('./equipe/equipe'));
 module.exports = router;
