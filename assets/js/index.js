@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#buscarEnderecoBTN").click(function(){new BuscaEndereco(null).busca()})});
